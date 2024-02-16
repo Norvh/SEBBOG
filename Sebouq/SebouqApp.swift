@@ -11,7 +11,7 @@ import SwiftUI
 struct SebouqApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            onBoarding()
         }
     }
 }

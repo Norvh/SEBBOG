@@ -8,54 +8,55 @@
 import SwiftUI
 
 
-struct Splach: View {
-    @State private var isActive=false
-    @State private var size = 0.7
-   @State private var opacity = 0.5
-    var body: some View {
-        FinalView()
-    }
-}
+//struct Splach: View {
+//    @State private var isActive=false
+//    @State private var size = 0.7
+//   @State private var opacity = 0.5
+//    var body: some View {
+//        FinalView()
+//    }
+//}
 
 
-struct Splach_Previews: PreviewProvider {
+struct onBoarding_Previews: PreviewProvider {
     static var previews: some View {
-        splach()
+        onBoarding()
         
     }
 }
-struct FinalView: View {
+struct onBoarding: View {
     @State var splashScreen  = true
-
+    
     var body: some View {
-        ZStack{
-            Image("Stig")
-            .resizable()
-            .scaledToFill()
-            .ignoresSafeArea()
-            .frame(width: 400 , height: 300)
-            
-       
-            Group{
-              if splashScreen {
-                  SplashScreen()
-               }
-              else{
-                  Impording()
+        //Text("hi")
+                ZStack{
+                    Image("Stig")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
+                    .frame(width: 400 , height: 300)
+        
+        
+                    Group{
+                      if splashScreen {
+                          SplashScreen()
+                       }
+                      else{
+                          Impording()
+                            }
+                        }
+                       .onAppear {
+                          DispatchQueue
+                               .main
+                               .asyncAfter(deadline:
+                                    .now() + 3.5) {
+                           splashScreen = false
+                          }
+                        }
                     }
-                }
-               .onAppear {
-                  DispatchQueue
-                       .main
-                       .asyncAfter(deadline:
-                            .now() + 3.5) {
-                   splashScreen = false
-                  }
-                }
-            }
-        }
+        // }
     }
-
+}
 
 
 struct SplashScreen: View {

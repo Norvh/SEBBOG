@@ -8,7 +8,7 @@
 import SwiftUI
 import AVFAudio
 
-struct Timer: View {
+struct Timer1: View {
     @State private var isActive=false
     @State private var size = 0.7
     @State private var opacity = 0.5
@@ -184,9 +184,9 @@ struct Timer: View {
     
 #if DEBUG
     
-    struct Timer_Previews: PreviewProvider {
+    struct Timer1_Previews: PreviewProvider {
         static var previews: some View {
-            Timer()
+            Timer1()
             
         
         }

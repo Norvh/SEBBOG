@@ -13,7 +13,7 @@ class MCManager: NSObject, ObservableObject {
 
     let defaults = UserDefaults.standard
     
-    let serviceType = "Subog"
+    let serviceType = "Players"
     var profile: Profile
     var peerID: MCPeerID
     var session: MCSession

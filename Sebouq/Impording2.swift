@@ -59,7 +59,7 @@ struct Impording2: View {
             }
             VStack{
                 NavigationLink(destination:
-                        group1() ) {
+                        Group1() ) {
                     Image("s")
                         .resizable()
                         .frame(width: 300, height: 100)
@@ -82,7 +82,7 @@ struct Impording2: View {
         }
         
         .background(
-            Image("stig3")
+            Image("back")
                 .resizable()
                 .padding(.top, -34.0)
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)

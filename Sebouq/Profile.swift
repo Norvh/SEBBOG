@@ -11,6 +11,7 @@ import SwiftUI
 struct Profile: Codable, Equatable {
     var name = "Subog"
     var avatar = UIImage(named: "sb")!.pngData()!
+    
     var email = "default@subog.com"
     var isAdvertising = false
     

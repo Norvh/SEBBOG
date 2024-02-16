@@ -69,7 +69,8 @@ struct Impording: View {
                     }
                     
                     VStack{
-                        NavigationLink(destination:Impording2() ) {
+                       
+    NavigationLink(destination:Impording2() ) {
                             Image("b1")
                                 .resizable()
                                 .frame(width: 300, height: 100)
