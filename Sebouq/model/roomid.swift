@@ -1,18 +1,25 @@
-//
-//  roomid.swift
-//  Sebouq
-//
-//  Created by Norah W on 07/08/1445 AH.
-//
+import Foundation
 
-import SwiftUI
+// Model struct for a Room
 
-struct roomid: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct Room {
+    var id: UUID
+    var name: String
+    var capacity: Int
+    
+    // Custom initializer
+    init(name: String, capacity: Int) {
+        self.id = UUID()
+        self.name = name
+        self.capacity = capacity
     }
 }
 
-#Preview {
-    roomid()
-}
+// Example usage:
+// Create a room instance
+let room = Room(name: "Conference Room", capacity: 6)
+
+// Access properties
+// print("Room ID: \(room.id)")
+// print("Room Name: \(room.name)")
+// print("Room Capacity: \(room.capacity)")

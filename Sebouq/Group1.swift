@@ -35,7 +35,7 @@ struct Group1: View {
                             .frame(width: 80, height: 80)
                             .position(x: 350, y: 50)
                             .sheet(isPresented: $isSittingSheetPresented) {
-                                Sitting()
+                                Impording()
                             }
                         
                     }
@@ -50,7 +50,7 @@ struct Group1: View {
                 
                 Spacer()
                 VStack {
-                    NavigationLink(destination:     DiscoverView()) {
+                    NavigationLink(destination:     ContentView()) {
                         Image("مجموعه")
                             .resizable()
                             .frame(width: 350, height: 100)
@@ -60,7 +60,7 @@ struct Group1: View {
                             .navigationBarHidden(true)
 
                     }
-                    NavigationLink(destination:  Sharing() ) {
+                    NavigationLink(destination:  Impording() ) {
                         Image("مجموعتي")
                             .resizable()
                             .frame(width: 350, height: 100)

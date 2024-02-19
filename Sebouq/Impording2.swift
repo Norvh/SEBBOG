@@ -21,7 +21,7 @@ struct Impording2: View {
             
       if selectedPage == 0 {
                 ZStack {
-                    CircleView().offset(x: -100, y: 25)
+               
                  
                     HStack {
                         Image("Vector 8")

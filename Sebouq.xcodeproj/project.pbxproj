@@ -27,24 +27,12 @@
 		D0AA8C672B72C114001DEE22 /* Loser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA8C662B72C114001DEE22 /* Loser.swift */; };
 		D0AA8C692B72C15B001DEE22 /* Sitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA8C682B72C15B001DEE22 /* Sitting.swift */; };
 		D4291A962B7A565300C83DD5 /* SebouqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA8C2B2B72B671001DEE22 /* SebouqTests.swift */; };
+		D466F5172B8024A300D5B7BE /* roomid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466F5162B8024A300D5B7BE /* roomid.swift */; };
 		D4CC97382B73815B0079A22C /* MyImageClassifier mo.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D4CC97372B73815B0079A22C /* MyImageClassifier mo.mlmodel */; };
 		D4CC97422B73823A0079A22C /* loser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4CC97412B73823A0079A22C /* loser.mp3 */; };
 		D4CC97442B73823F0079A22C /* timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4CC97432B73823F0079A22C /* timer.mp3 */; };
 		D4CC97492B73828E0079A22C /* Notification - correct answer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4CC97482B73828E0079A22C /* Notification - correct answer.mp3 */; };
-		D4EA4E122B7BF057000B7800 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E112B7BF057000B7800 /* ContentView.swift */; };
-		D4EA4E142B7BF062000B7800 /* MCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E132B7BF062000B7800 /* MCManager.swift */; };
-		D4EA4E162B7BF06B000B7800 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E152B7BF06B000B7800 /* ChatView.swift */; };
-		D4EA4E182B7BF072000B7800 /* ChatFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E172B7BF072000B7800 /* ChatFiles.swift */; };
-		D4EA4E1A2B7BF077000B7800 /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E192B7BF077000B7800 /* ChatList.swift */; };
-		D4EA4E1C2B7BF07C000B7800 /* ChatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E1B2B7BF07C000B7800 /* ChatDetail.swift */; };
-		D4EA4E1E2B7BF081000B7800 /* ChatProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E1D2B7BF081000B7800 /* ChatProfile.swift */; };
-		D4EA4E202B7BF087000B7800 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E1F2B7BF087000B7800 /* DiscoverView.swift */; };
-		D4EA4E222B7BF08C000B7800 /* DiscoverStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E212B7BF08C000B7800 /* DiscoverStatus.swift */; };
-		D4EA4E242B7BF091000B7800 /* PeerGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E232B7BF091000B7800 /* PeerGrid.swift */; };
-		D4EA4E262B7BF09A000B7800 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E252B7BF09A000B7800 /* Profile.swift */; };
-		D4EA4E282B7BF0A4000B7800 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E272B7BF0A4000B7800 /* ProfileSummary.swift */; };
-		D4EA4E2A2B7BF0A9000B7800 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E292B7BF0A9000B7800 /* ProfileView.swift */; };
-		D4EA4E2C2B7BF0B0000B7800 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EA4E2B2B7BF0B0000B7800 /* ProfileEditor.swift */; };
+		D4D00D962B81F9320038724E /* MCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D00D952B81F9320038724E /* MCManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,24 +75,12 @@
 		D0AA8C642B72C0D5001DEE22 /* Winner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winner.swift; sourceTree = "<group>"; };
 		D0AA8C662B72C114001DEE22 /* Loser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loser.swift; sourceTree = "<group>"; };
 		D0AA8C682B72C15B001DEE22 /* Sitting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sitting.swift; sourceTree = "<group>"; };
+		D466F5162B8024A300D5B7BE /* roomid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomid.swift; sourceTree = "<group>"; };
 		D4CC97372B73815B0079A22C /* MyImageClassifier mo.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyImageClassifier mo.mlmodel"; sourceTree = "<group>"; };
 		D4CC97412B73823A0079A22C /* loser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = loser.mp3; path = "../spog final/BookARide/BookARide/loser.mp3"; sourceTree = "<group>"; };
 		D4CC97432B73823F0079A22C /* timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = timer.mp3; path = "../spog final/BookARide/BookARide/timer.mp3"; sourceTree = "<group>"; };
 		D4CC97482B73828E0079A22C /* Notification - correct answer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Notification - correct answer.mp3"; path = "../spog final/BookARide/BookARide/Notification - correct answer.mp3"; sourceTree = "<group>"; };
-		D4EA4E112B7BF057000B7800 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D4EA4E132B7BF062000B7800 /* MCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCManager.swift; sourceTree = "<group>"; };
-		D4EA4E152B7BF06B000B7800 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		D4EA4E172B7BF072000B7800 /* ChatFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatFiles.swift; sourceTree = "<group>"; };
-		D4EA4E192B7BF077000B7800 /* ChatList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
-		D4EA4E1B2B7BF07C000B7800 /* ChatDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetail.swift; sourceTree = "<group>"; };
-		D4EA4E1D2B7BF081000B7800 /* ChatProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatProfile.swift; sourceTree = "<group>"; };
-		D4EA4E1F2B7BF087000B7800 /* DiscoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
-		D4EA4E212B7BF08C000B7800 /* DiscoverStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverStatus.swift; sourceTree = "<group>"; };
-		D4EA4E232B7BF091000B7800 /* PeerGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerGrid.swift; sourceTree = "<group>"; };
-		D4EA4E252B7BF09A000B7800 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		D4EA4E272B7BF0A4000B7800 /* ProfileSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
-		D4EA4E292B7BF0A9000B7800 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		D4EA4E2B2B7BF0B0000B7800 /* ProfileEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		D4D00D952B81F9320038724E /* MCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MCManager.swift; path = "../../Find-Nearby-main-3/Find Nearby/MCManager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,20 +148,7 @@
 			children = (
 				D07A81572B73735B00E7D699 /* Views */,
 				D0AA8C1A2B72B670001DEE22 /* SebouqApp.swift */,
-				D4EA4E112B7BF057000B7800 /* ContentView.swift */,
-				D4EA4E132B7BF062000B7800 /* MCManager.swift */,
-				D4EA4E152B7BF06B000B7800 /* ChatView.swift */,
-				D4EA4E172B7BF072000B7800 /* ChatFiles.swift */,
-				D4EA4E192B7BF077000B7800 /* ChatList.swift */,
-				D4EA4E1B2B7BF07C000B7800 /* ChatDetail.swift */,
-				D4EA4E1D2B7BF081000B7800 /* ChatProfile.swift */,
-				D4EA4E1F2B7BF087000B7800 /* DiscoverView.swift */,
-				D4EA4E212B7BF08C000B7800 /* DiscoverStatus.swift */,
-				D4EA4E252B7BF09A000B7800 /* Profile.swift */,
-				D4EA4E272B7BF0A4000B7800 /* ProfileSummary.swift */,
-				D4EA4E292B7BF0A9000B7800 /* ProfileView.swift */,
-				D4EA4E2B2B7BF0B0000B7800 /* ProfileEditor.swift */,
-				D4EA4E232B7BF091000B7800 /* PeerGrid.swift */,
+				D4D00D952B81F9320038724E /* MCManager.swift */,
 				D0AA8C1C2B72B670001DEE22 /* Splach.swift */,
 				D0AA8C582B72BEAD001DEE22 /* Impording.swift */,
 				D0AA8C5A2B72BEDD001DEE22 /* Impording2.swift */,
@@ -197,6 +160,7 @@
 				D0AA8C662B72C114001DEE22 /* Loser.swift */,
 				D0AA8C682B72C15B001DEE22 /* Sitting.swift */,
 				D0AA8C1E2B72B671001DEE22 /* Assets.xcassets */,
+				D466F5152B80247D00D5B7BE /* model */,
 				D0AA8C202B72B671001DEE22 /* Preview Content */,
 			);
 			path = Sebouq;
@@ -225,6 +189,14 @@
 				D0AA8C372B72B671001DEE22 /* SebouqUITestsLaunchTests.swift */,
 			);
 			path = SebouqUITests;
+			sourceTree = "<group>";
+		};
+		D466F5152B80247D00D5B7BE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D466F5162B8024A300D5B7BE /* roomid.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,23 +341,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4EA4E182B7BF072000B7800 /* ChatFiles.swift in Sources */,
-				D4EA4E142B7BF062000B7800 /* MCManager.swift in Sources */,
-				D4EA4E222B7BF08C000B7800 /* DiscoverStatus.swift in Sources */,
-				D4EA4E262B7BF09A000B7800 /* Profile.swift in Sources */,
 				D0AA8C632B72C08A001DEE22 /* Camer1.swift in Sources */,
 				D0AA8C5B2B72BEDD001DEE22 /* Impording2.swift in Sources */,
-				D4EA4E202B7BF087000B7800 /* DiscoverView.swift in Sources */,
-				D4EA4E122B7BF057000B7800 /* ContentView.swift in Sources */,
-				D4EA4E1A2B7BF077000B7800 /* ChatList.swift in Sources */,
-				D4EA4E162B7BF06B000B7800 /* ChatView.swift in Sources */,
 				D0AA8C612B72BFDF001DEE22 /* Timer1.swift in Sources */,
-				D4EA4E282B7BF0A4000B7800 /* ProfileSummary.swift in Sources */,
-				D4EA4E2A2B7BF0A9000B7800 /* ProfileView.swift in Sources */,
-				D4EA4E2C2B7BF0B0000B7800 /* ProfileEditor.swift in Sources */,
 				D0AA8C592B72BEAD001DEE22 /* Impording.swift in Sources */,
-				D4EA4E1E2B7BF081000B7800 /* ChatProfile.swift in Sources */,
-				D4EA4E242B7BF091000B7800 /* PeerGrid.swift in Sources */,
+				D466F5172B8024A300D5B7BE /* roomid.swift in Sources */,
 				D0AA8C672B72C114001DEE22 /* Loser.swift in Sources */,
 				D0AA8C1D2B72B670001DEE22 /* Splach.swift in Sources */,
 				D0AA8C692B72C15B001DEE22 /* Sitting.swift in Sources */,
@@ -396,8 +356,8 @@
 				D0AA8C5F2B72BF80001DEE22 /* Sharing.swift in Sources */,
 				D0AA8C652B72C0D5001DEE22 /* Winner.swift in Sources */,
 				D4CC97382B73815B0079A22C /* MyImageClassifier mo.mlmodel in Sources */,
-				D4EA4E1C2B7BF07C000B7800 /* ChatDetail.swift in Sources */,
 				D07A815C2B73735B00E7D699 /* sound.swift in Sources */,
+				D4D00D962B81F9320038724E /* MCManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
